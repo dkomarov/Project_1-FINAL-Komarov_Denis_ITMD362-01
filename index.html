@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<title>PROJECT ONE: ONBOARDING</title>
+	<link rel="stylesheet" media="screen" href="screen.css"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div id = "userForm">
+		<form method="post" action="#" onsubmit="return confirmation()">
+			<fieldset>
+				<h1>Welcome to the Web Developer Club sign-up site!</h1>
+				
+				<div class = "we">
+					<p>We design, code, and release web-pages for the world to see.</p>
+				</div>
+				
+				<div id = "mq960">
+					<p>To sign-up and join the 
+					wonderful world of Web Development, all you have to do is  fill in the following fields 
+					with the corresponding information. Then click "Submit" to complete the sign-up process. 
+					We look forward to working with you.
+					</p>
+				</div>
+				
+				<div class = "note">
+					<p>NOTE: Providing your first & last name is optional. The same is true for your phone number. At minimum, we require
+					your date of birth and email address.
+					</p>
+				</div>
+				
+				<table>
+					<tr>
+						<td>
+							<label>Date of Birth:</label>
+						</td>
+						<td>
+							<input type = "text" id = "dob_field" placeholder = "MM/DD/YYYY" maxlength="10" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" 
+								title = "Remember the format: MM/DD/YYYY. Including the slash '/' characters!" required/>
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<label>First Name:</label>
+						</td>
+						<td>
+							<input type = "text" id = "fName_field" placeholder = "First" maxlength="20" pattern="[a-zA-Z]+" title = "Letters only, no spaces.">
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<label>Last Name:</label>
+						</td>
+						<td>
+							<input type = "text" id = "lName_field" placeholder = "Last" maxlength="30" pattern="[a-zA-Z]+" title = "Letters only, no spaces.">
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<label>Email address:</label>
+						</td>
+						<td>
+							<input type="email" name="email_field" placeholder="user@service.ext" required />
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label>Phone number:</label>
+						</td>
+						<td>
+							<select>
+								<option>312</option>
+								<option>773</option>
+								<option>872</option>
+							</select>
+								<input type = "tel" name = "phoneNum_field"  placeholder = "###-####" maxlength="8" pattern="\d{3}[\-]\d{4}$" title = "Remember to include the dash (-) symbol! 
+								Also, note that providing a phone number is optional.">
+						</td>
+					</tr>
+				</table>
+				
+				<div id = "submitButton">
+					<input type = "submit" value="Submit">
+				</div>
+				
+				<footer>
+					<div id = "validCSSicon">
+    				<a href="http://jigsaw.w3.org/css-validator/check/referer"></a>
+        		<img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"/>
+     			</div>
+     			<script src = "form.js"></script>
+      	</footer>
+      	
+    	</fieldset>
+		</form>
+	</div>
+</body>
+</html>
+
