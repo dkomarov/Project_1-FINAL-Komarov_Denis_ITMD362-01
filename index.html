@@ -33,60 +33,12 @@
 					</p>
 				</div>
 				
-				<table>
-					<tr>
-						<td>
-							<label>Date of Birth:</label>
-						</td>
-						<td>
-							<input type = "text" id = "dob_field" placeholder = "MM/DD/YYYY" maxlength="10" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" 
-								title = "Remember the format: MM/DD/YYYY. Including the slash '/' characters!" required/>
-						</td>
-					</tr>
-				
-					<tr>
-						<td>
-							<label>First Name:</label>
-						</td>
-						<td>
-							<input type = "text" id = "fName_field" placeholder = "First" maxlength="20" pattern="[a-zA-Z]+" title = "Letters only, no spaces.">
-						</td>
-					</tr>
-				
-					<tr>
-						<td>
-							<label>Last Name:</label>
-						</td>
-						<td>
-							<input type = "text" id = "lName_field" placeholder = "Last" maxlength="30" pattern="[a-zA-Z]+" title = "Letters only, no spaces.">
-						</td>
-					</tr>
-				
-					<tr>
-						<td>
-							<label>Email address:</label>
-						</td>
-						<td>
-							<input type="email" name="email_field" placeholder="user@service.ext" required />
-						</td>
-					</tr>
-					
-					<tr>
-						<td>
-							<label>Phone number:</label>
-						</td>
-						<td>
-							<select>
-								<option>312</option>
-								<option>773</option>
-								<option>872</option>
-							</select>
-								<input type = "tel" name = "phoneNum_field"  placeholder = "###-####" maxlength="8" pattern="\d{3}[\-]\d{4}$" title = "Remember to include the dash (-) symbol! 
-								Also, note that providing a phone number is optional.">
-						</td>
-					</tr>
-				</table>
-				
+				<label>Date of Birth:</label><input type="text" id="dob_field" placeholder="MM/DD/YYYY" maxlength="10" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" title="Remember the format: MM/DD/YYYY. Including the slash '/' characters!" required/>
+				<label>First Name</label><input type="text" id="fName_field" placeholder="First" maxlength="20" pattern="[a-zA-Z]+" title="Letters only, no spaces.">
+				<label>Last Name:</label><input type="text" id="lName_field" placeholder="Last" maxlength="30" pattern="[a-zA-Z]+" title = "Letters only, no spaces.">
+			  <label>Email address:</label><input type="email" name="email_field" placeholder="user@service.ext" required/>
+			  <label>Phone number:</label><input type="tel" name="phoneNum_field" placeholder="###-####" maxlength="8" pattern="\d{3}[\-]\d{4}$" title="Remember to include the dash (-) symbol! Also, note that providing a phone number is optional.">
+			
 				<div id = "submitButton">
 					<input type = "submit" value="Submit">
 				</div>
