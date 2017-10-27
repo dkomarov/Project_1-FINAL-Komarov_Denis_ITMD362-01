@@ -47,7 +47,7 @@
   	display: block;
   	text-align: center;
   	margin: auto;
-  	border: solid blue 1.5px;
+  	border-style: ridge red;
   	font-size: 1em;
   }
   
@@ -88,7 +88,7 @@
   }
   
   #submitButton input {
-  	color: blue;
+  	color: black;
   }
   
    #validCSSicon {
@@ -118,10 +118,10 @@
 	
 	#userData select {
 		margin: 0.5em auto 0em auto;
-		border: solid blue 1.5px;
+		border-style: ridge;
 		margin-bottom: 1em;
 		width: 50%;
-		text-indent: 40%;
+		text-indent: 35%;
 	}
 	
 	#userData option {
@@ -165,9 +165,8 @@
   }
   
   input {
-  	border: solid purple 3px;
+  	border-style: ridge;
   	font-size: 1.2em;
-  	width: 
   }
   
   .we {
@@ -202,7 +201,7 @@
   }
 
  #submitButton input {
-  	color: purple;
+  	color: blue;
   }
   
  #validCSSicon {
@@ -231,7 +230,7 @@
   
   table input {
   	width: 85%;
-  	border: solid purple 3px;
+  	border-style: ridge;
   }
   
   table label {
@@ -243,7 +242,7 @@
 	}
 	
 	#userData select {
-		border: solid purple 3px;
+		border-style: ridge;
 		display: block;
 		width: 26%;
 		text-indent: 25%;
@@ -289,7 +288,7 @@
   }
   
   input {
-    border: solid black 3px;
+    border-style: ridge;
     font-size: 1.333em;
   	display: block;
   }
@@ -308,7 +307,7 @@
   }
   
   #userData select {
-  	border: solid black 3px;
+  	border-style: ridge;
   	width: 7.8em;
   	display: inline;
   	text-indent: 15%;
@@ -374,7 +373,7 @@
   }
   
   table input {
-  	border: solid black 3px;
+  	border-style: ridge;
   	width: 175%;
   	margin-left: 10px;
   	text-align: left;
