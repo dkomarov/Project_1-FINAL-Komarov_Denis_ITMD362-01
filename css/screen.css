@@ -278,7 +278,6 @@
   	width: 75%;
   	text-align: left;
     display: block;
-    border: red solid 3px;
     float: left;
   }
   
@@ -312,6 +311,7 @@
   	width: 80%;
   	margin-right: 50%;
   	margin-left: 2em;
+  	border: transparent solid 3px;
   }
   
   table td {
