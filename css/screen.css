@@ -289,6 +289,10 @@
 	
 	#signup {
 		margin: 1em;
+		background: url("../media/translucent.png") fixed; 
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
 	}
 	
   #submitButton {
