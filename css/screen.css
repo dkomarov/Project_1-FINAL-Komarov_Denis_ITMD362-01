@@ -221,7 +221,7 @@
   }
   
   table input {
-  	width: 60%;
+  	width: 85%;
   	border: solid purple 3px;
   }
   
@@ -230,7 +230,7 @@
   }
   
   #userData label {
-		width: 60%;
+		width: 50%;
 	}
 	
 	#userData select {
