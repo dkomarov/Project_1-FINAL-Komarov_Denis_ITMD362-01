@@ -286,7 +286,7 @@
   
   #userData {
   	display: block;
-  	width: 80%;
+  	width: 90%;
   	margin-left: 2em;
   	float: left;
   }
@@ -294,14 +294,15 @@
   
  #userData label {
   	padding-right: 3.25em;
+  	
   }
   
   #userData select {
   	border: solid black 3px;
+  	width: 17.25%;
   	display: inline;
-  	
   }
-
+	
   #userForm {
   	width: 75%;
   	text-align: left;
@@ -331,6 +332,7 @@
   	padding: 3em;
   	margin: auto;
   	text-align: left;	
+  	margin-left: 17.5%;
   }
   
   #submitButton input {
@@ -338,10 +340,11 @@
   }
 
 	#validCSSicon {
-  	text-align: left;
   	padding: 1em;
   	height: 100px;
   	width: 75px;
+  	margin-left: 51%;
+  	padding-bottom: 0%;
   }
   
   table {
@@ -353,7 +356,7 @@
   
   table td {
   	display: inline-block;
-  	width: 191px;
+  	width: 203px;
   }
   
    table tr {
@@ -362,7 +365,7 @@
   
   table input {
   	border: solid black 3px;
-  	width: 150%;
+  	width: 175%;
   	margin-left: 10px;
   }
   
