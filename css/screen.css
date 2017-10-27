@@ -80,6 +80,10 @@
   	text-align: center;
   }
   
+  #submitButton input {
+  	color: blue;
+  }
+  
    #validCSSicon {
   	margin: auto;
   	text-align: center;
@@ -156,9 +160,17 @@
   	width: 75%;
   }
 
+ #submitButton input {
+  	color: purple;
+  }
+  
  #validCSSicon {
 		padding-top: 3em;
   	text-align: center;
+  }
+  
+  input {
+  	border: solid purple 3px;
   }
   
 	
@@ -231,7 +243,6 @@
 		color: lime;
 		display: inline;
 		padding-left: 0%;
-		position: left;
 		width: 125%;
 		margin: 0.5em;
 		font-size: 1.250em;
@@ -239,6 +250,7 @@
   }
   
   input {
+    border: solid black 3px;
   	display: block;
   }
   
@@ -283,6 +295,10 @@
   	margin: auto;
   	text-align: left;	
   }
+  
+  #submitButton input {
+  	color: red;
+  }
 
 	#validCSSicon {
   	text-align: left;
@@ -295,17 +311,14 @@
   	width: 80%;
   	margin-right: 50%;
   	margin-left: 2em;
-  	position: left;
   }
   
   table td {
-  	border solid green 3px;
   	display: inline-block;
   	width: 191px;
   }
   
    table tr {
-  	border solid green 3px;
   	display: inline-block;
   }
   
@@ -313,7 +326,6 @@
   	border: solid black 3px;
   	width: 150%;
   	margin-left: 10px;
-  	position: inline;
   }
   
 }
