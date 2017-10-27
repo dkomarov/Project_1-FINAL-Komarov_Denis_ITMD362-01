@@ -47,7 +47,8 @@
   	display: block;
   	text-align: center;
   	margin: auto;
-  	border-style: ridge red;
+  	border-style: ridge;
+  	border-color: red;
   	font-size: 1em;
   }
   
