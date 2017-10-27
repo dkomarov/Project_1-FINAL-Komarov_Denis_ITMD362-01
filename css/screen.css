@@ -52,6 +52,10 @@
   	text-align: center;
   	position: center;
    }
+   
+  .we {
+		font-style: italic;
+	}
 	
 	#signup p {
 		margin-bottom: 0.5em;
@@ -67,13 +71,6 @@
 		margin: auto;
 	}
 	
-	.we {
-		background: url("../media/translucent.png") fixed; 
-		background-repeat: no-repeat;	
-		background-size: cover;
-		background-position: center;
-		font-style: italic;
-	}
 	
   #submitButton {
   	padding: 3em;
