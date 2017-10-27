@@ -16,17 +16,18 @@
 	}
 	
 	/*
-  Major Second Modular Scale:
-  http://www.modularscale.com/?1&em&1.125
+  Minor Second Modular Scale:
+  http://www.modularscale.com/?1&em&1.067
 	*/
 
 	h1 { 
-		font-size: 1.266em;
-		margin: 0.5em;
+		font-size: 1.138em;
+		margin: 1em;
+		font-weight: bold;
 	}
 	
 	p {
-	  font-size: 1.125em;
+	  font-size: 1.067em;
 		margin: .5em;
 	}
 	
@@ -34,33 +35,44 @@
 		display: block;
 		color: white;
 		background-color: gray;
-		margin: 0.5em;
+		margin: 0.5em 0em 0.5em 0em;
 		font-size: 1em;
+		width: 100%;	
+  }
+  
+  input {
+  	display: block;
+  	margin: auto;
+  	border: solid blue 3px;
   }
   
   #userForm {
-  	display: inline-block;
   	margin: auto;
-  	width: 50%;
+  	width: 75%;
   	text-align: center;
   	position: center;
    }
-  
- 	tr {
-  	margin: 0.1em;
-  	display: inline;
-  	position: center;
-  }
-  
-	td {
-    margin: 1em;
-  	display: inline;
-  	position: center;
-	}
 	
-	#mq960 p {
+	#signup p {
 		margin-bottom: 0.5em;
 		padding-bottom: 0.5em;
+		background: url("../media/translucent.png") fixed; 
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
+	}
+
+	#dob_menu, #day, #year {
+		display: block;
+		margin: auto;
+	}
+	
+	.we {
+		background: url("../media/translucent.png") fixed; 
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
+		font-style: italic;
 	}
 	
   #submitButton {
@@ -77,6 +89,23 @@
   	width: 80px;
   }
  
+	td {
+		display: block;
+	}
+	
+	table {
+		margin: auto;
+	}
+	
+	#userData label {
+		width: 50%;
+		margin: auto;
+	}
+	
+	#userData select {
+		margin: 0.5em auto 0em auto;
+		border: solid blue 3px;
+	}
 }
 
 /*Responsive Design
@@ -84,7 +113,7 @@
 @media screen and (min-width: 640px) {
 	body {
 		color: cyan;
-		text-align: left;
+		line-height: 36px;
 		background: url("../media/Microsoft_Devices_Wallpaper.png") fixed; 
 		background-repeat: no-repeat;	
 		background-size: cover;
@@ -103,131 +132,188 @@
 		
 	p {
 		font-size: 1.563em;
-		margin: 2em;
 	}
 	
 	label { 
 		color: cyan;
-		display: block;
 		background-color: transparent;
 		margin: .5em;
 		font-size: 1.25em;
- 		text-align: left;
   }
   
-  form {
-  	display: block;
-  	margin: auto;
-  	text-align: left;
-  }
+  #signup p {
+    margin-top: 1em;
+		margin-bottom: 0.5em;
+		padding-bottom: 0.5em;
+		background: none;
+	}
   
-  tr {
-  	margin: 0.1em;
-  	display: inline-block;
-  }
-  
-	td {
-    margin: 1em;
-  	display: inline-block;
+  .we {
+		background: none;
 	}
   
   #userForm {
   	width: 75%;
   }
-  
+
  #validCSSicon {
-  	margin: auto;
-  	width: 100%;
-  	text-align: left;
+		padding-top: 3em;
+  	text-align: center;
   }
+  
+	
+	#fields {
+		text-align: center;
+	}
+	
+	#dob_menu, #day, #year {
+		display: inline-block;
+		margin: auto;
+	}
   
   #submitButton {
   	padding: 2em;
-  	text-align: left;
+  	text-align: center;
   }
   
+  table {
+  	width: 60%;
+  }
+  
+  table input {
+  	width: 60%;
+  	border: solid purple 3px;
+  }
+  
+  table label {
+  	margin: 0.5em auto 0.5em auto;
+  }
+  
+  #userData label {
+		width: 60%;
+	}
+	
+	#userData select {
+		margin-right: 0.75em;
+		border: solid purple 3px;
+	}
+
 }
 
 /*Responsive Design
 	Desktops*/
 @media screen and (min-width: 960px) {
+
 	body {
-		font-family: Calibri;
 		color: lime;
-	  text-align: center;
-	  background: url("../media/Multicompany_Devices.jpg") fixed; 
+	  line-height: 48px;
+	  background: url("../media/colorcoding.jpg") fixed; 
 		background-repeat: no-repeat;	
 		background-size: cover;
 		background-position: center;
 	}
 	
 	/*
-  Augmented Fourth Modular Scale:
-  http://www.modularscale.com/?1&em&1.414
+  Major Third Modular Scale:
+  http://www.modularscale.com/?1&em&1.250
 	*/
 	
 	h1 { 
-		font-size: 2.827em;
-		margin: 0em;
+	  padding-top: 0em;
+		font-size: 1.953em;
 		}
 		
 	p {
-		font-size: 1.999em;
-		margin: 2.5em;
+		font-size: 1.563em;
 	}
 	
 	label { 
-	color: lime;
-	display: block;
-	background-color: transparent;
-	margin: 1em;
-	font-size: 1.414em;
-	text-align: center;
+		color: lime;
+		display: inline;
+		padding-left: 0%;
+		position: left;
+		width: 125%;
+		margin: 0.5em;
+		font-size: 1.250em;
+		border: red;
   }
   
-  form {
-    width: 100%;
-  	text-align: center;
-  	position: center;
+  input {
+  	display: block;
   }
   
-  table {
-  	padding: 10em;
+  
+  #userData {
+  	display: block;
+  	width: 80%;
+  	margin-left: 2em;
+  	float: left;
   }
   
-  tr {
-  	margin: 0.1em;
-  	display: inline-block;
+  
+ #userData label {
+  	padding-right: 3.25em;
   }
   
-	td {
-    margin: 0.5em;
-  	display: inline-block;
-	}
-	
+  #userData select {
+  	border: solid black 3px;
+  	display: inline;
+  	
+  }
+
+  #userForm {
+  	width: 75%;
+  	text-align: left;
+    display: block;
+    border: red solid 3px;
+    float: left;
+  }
+  
 	.we p {
-	margin: 1em;
-	padding: 2em;
+		margin: 1em;
+		padding-bottom: 0.5em;
 	}	
 	
- #mq960 {
-  	padding-top: 4.5em;
-  	padding-bottom: 0em;
-  }
-  
+	#signup {
+		margin: 1em;
+	}
+	
   #submitButton {
   	padding: 3em;
   	margin: auto;
-  	text-align: center;	
+  	text-align: left;	
   }
 
 	#validCSSicon {
-  	margin: auto;
-  	text-align: center;
-  	width: 100%;
+  	text-align: left;
   	padding: 1em;
   	height: 100px;
   	width: 75px;
+  }
+  
+  table {
+  	width: 80%;
+  	margin-right: 50%;
+  	margin-left: 2em;
+  	position: left;
+  }
+  
+  table td {
+  	border solid green 3px;
+  	display: inline-block;
+  	width: 191px;
+  }
+  
+   table tr {
+  	border solid green 3px;
+  	display: inline-block;
+  }
+  
+  table input {
+  	border: solid black 3px;
+  	width: 150%;
+  	margin-left: 10px;
+  	position: inline;
   }
   
 }
