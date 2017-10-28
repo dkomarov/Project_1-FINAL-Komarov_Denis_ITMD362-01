@@ -20,7 +20,7 @@
 					<p>We design, code, and release fantastic websites.</p>
 				</div>
 				
-				<div id="signup">
+				<div id="signup" onmouseover="mouseOverPara()">
 					<p>To sign-up, fill in the following fields with the corresponding information. Then click 
 					the confirmation button to complete registration. We look forward to working with you.
 					</p>
@@ -31,17 +31,15 @@
 				</div>
 
 				<table>
-					<tr><td><label>First Name:</label></td><td><input type="text" id="fName_field" placeholder="First" maxlength="35" pattern="[a-zA-Z]+" title="Letters only, no spaces." required></td></tr>
-					<tr><td><label>Last Name:</label></td><td><input type="text" id="lName_field" placeholder="Last" maxlength="35" pattern="[a-zA-Z]+" title = "Letters only, no spaces."></td></tr>
-			  	<tr><td><label>Email address:</label></td><td><input type="email" name="email_field" placeholder="user@service.ext" required/></td></tr>
-			  	<tr><td><label>Phone number:</label></td><td><input type="tel" name="phone_field" placeholder="##########" maxlength="10" pattern="\d{3}\d{3}\d{4}" title=""></td></tr>
+					<tr><td><label>First Name:</label></td><td><input type="text" id="fName_field" placeholder="First" maxlength="35" pattern="[a-zA-Z]+" title="Letters only, no spaces." onmouseover="mouseOverInput('fName_field')" onmouseout="mouseOutInput('fName_field')" required></td></tr>
+					<tr><td><label>Last Name:</label></td><td><input type="text" id="lName_field" placeholder="Last" maxlength="35" pattern="[a-zA-Z]+" title = "Letters only, no spaces." onmouseover="mouseOverInput('lName_field')" onmouseout="mouseOutInput('lName_field')"></td></tr>
+			  	<tr><td><label>Email address:</label></td><td><input type="email" id="email_field" placeholder="user@service.ext" title = "Remember the '@' symbol!" onmouseover="mouseOverInput('email_field')" onmouseout="mouseOutInput('email_field')" required/></td></tr>
+			  	<tr><td><label>Phone number:</label></td><td><input type="tel" id="phone_field" placeholder="##########" maxlength="10" pattern="\d{3}\d{3}\d{4}" title="Only numbers, no spaces or symbols!" onmouseover="mouseOverInput('phone_field')" onmouseout="mouseOutInput('phone_field')"></td></tr>
 				</table>
 		
 				<div id="submitButton">
 					<input type="submit" id="subButton" value="Join the Team!" onclick="formValidator()" onmouseover="mouseOver()" onmouseout="mouseOut()"/>
 				</div>
-				
-				<p id="results"></p>
 				
 				<div id="bugdroid">
 					<img src="media/bugdroid.png" alt="Bugdroid - The Friendly Android Robot">
