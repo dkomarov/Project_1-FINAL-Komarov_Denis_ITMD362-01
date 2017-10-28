@@ -375,14 +375,14 @@
   }
   
    table tr {
-  	display: inline-block;
+  	display: block;
   }
   
   table input {
   	border-style: ridge;
   	width: 175%;
-  	margin-left: 10px;
   	text-align: left;
+  	margin-left: 10px;
   }
   
 }
