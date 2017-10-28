@@ -21,3 +21,11 @@ function mouseOver() {
 function mouseOut() {
 	document.getElementById("subButton").style.color = "navy";
 }
+
+function mouseOverInput(id) {
+	document.getElementById(id).style.border = "solid lime 4px";
+}
+
+function mouseOutInput(id) {
+	document.getElementById(id).style.border = "silver";
+}
