@@ -48,7 +48,7 @@
   	text-align: center;
   	margin: auto;
   	border-style: ridge;
-  	border-color: none;
+  	border-color: silver;
   	font-size: 1em;
   }
   
@@ -238,6 +238,10 @@
   	margin: 0.5em auto 0.5em auto;
   }
   
+  #userData {
+  	padding-bottom: 0%;
+  }
+  
   #userData label {
 		width: 50%;
 	}
@@ -247,7 +251,7 @@
 		display: block;
 		width: 26%;
 		text-indent: 25%;
-		margin-bottom: 0.5em;
+		margin-bottom: 1em;
 	}
 
 }
@@ -309,7 +313,8 @@
   
   #userData select {
   	border-style: ridge;
-  	width: 7.8em;
+  	width: 7.06em;
+  	margin-right: 1em;
   	display: inline;
   	text-indent: 15%;
   }
